@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #404040;
+    background-color: #F9F9F9;
+}
+
+.container{
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.menu--item {
+    display: inline;
+}
+
+.menu--link{
+    color: #4f78e0;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.menu--active{
+    font-weight: 700;
+}
+
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    height: 530px;
+    margin-bottom: 120px;
+}
+
+.hero--left{
+    width: 65%;
+    height: 100%;
+    background-image: url('../images/header-img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero--right{
+    width: 35%;
+    padding: 65px 60px;
+    background-color: #303778;
+    color: #ffffff;
+}
+
+.hero--title{
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero--desc{
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 22px;
+    margin-bottom: 70px;
+}
+
+.hero--cta{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: white;
+    padding: 12px 40px;
+    border: 1.5px white solid;
+}
+
+/* STEP SECTION */
+.step--container{
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.step{
+    color: #303778;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    padding: 90px 0;
+    justify-content: space-between;
+}
+
+.step--item{
+    width: 220px;
+    text-align: left;
+}
+
+.step--no{
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.step--title{
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.step--text{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/* FEATURED APARTMENT */
+
+.apartment--title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #303778;
+    margin-bottom: 50px;
+}
+
+.apartment--title::after{
+    content: '';
+    display: block;
+    width: 80px;
+    border-bottom: 6px #303778 solid;
+    margin-top: 8px;
+}
+
+.featured{
+    margin-bottom: 160px;
+}
+
+.featured--items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured--item{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.07);
+    border-radius: 5px;
+}
+
+.featured--img-container{
+    width: 336px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.featured--img{
+    height: 300px;
+}
+
+.featured--text{
+    margin: 25px 30px;
+}
+
+.featured--price{
+    font-size: 12px;
+    font-weight: 400;
+    color: #4f78e0;
+    border: 1px #4f78e0 solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 7px;
+    margin-bottom: 10px;
+}
+
+.featured--price>span{
+    font-family: 'Roboto';
+}
+
+.featured--apartment{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.featured--location{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+
+/* APARTMENTS */
+h3.apartment--title{
+    font-size: 25px;
+}
+
+h3.apartment--title::after{
+    width: 60px;
+    border-bottom-width: 5px;
+}
+
+.apartments{
+    margin-bottom: 120px;
+}
+
+.apartment--items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartment--item{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.05);
+    width: 246px;
+    border-radius: 5px;
+}
+
+.apartment--img-container{
+    height: 219px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.apartment--img{
+    height: 219px;
+}
+
+.apartment--text{
+    margin: 18px 16px 22px 16px;
+}
+
+.apartment--price{
+    font-size: 11px;
+    font-weight: 400;
+    color: #4f78e0;
+    border: 1px #4f78e0 solid;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 7px;
+    margin-bottom: 10px;
+}
+
+.apartment--price>span{
+    font-family: 'Roboto';
+}
+
+.apartment--apartment{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.apartment--location{
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+
