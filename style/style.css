@@ -86,6 +86,11 @@ nav{
     border: 1.5px white solid;
 }
 
+.hero--cta:hover{
+    color: #303778;
+    background-color: white;
+}
+
 /* STEP SECTION */
 .step--container{
     background-color: #ffffff;
@@ -157,6 +162,12 @@ nav{
     background-color: #ffffff;
     box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.07);
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.featured--item:hover{
+    box-shadow: 0px 6px 7px 0px rgba(0,0,0,0.1);
+    transform: translateY(2px);
 }
 
 .featured--img-container{
@@ -225,6 +236,12 @@ h3.apartment--title::after{
     box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.05);
     width: 246px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.apartment--item:hover{
+    box-shadow: 0px 6px 7px 0px rgba(0,0,0,0.09);
+    transform: translateY(2px);
 }
 
 .apartment--img-container{
@@ -266,5 +283,49 @@ h3.apartment--title::after{
     font-size: 10px;
     font-weight: 300;
     margin-top: 2px;
+}
+
+.footer{
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+    margin: 150px 0 70px;
+}
+
+.footer img {
+    margin-bottom: 5px;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+
+.footer li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer--1{
+    flex: 1;
+}
+
+.footer--2{
+    width: 150px;
+}
+
+.footer--3{
+    width: 150px;
+    margin-left: 100px;
+}
+
+ul .footer-title{
+    color: #303778;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
